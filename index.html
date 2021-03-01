@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alecto</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="slideshow" class="slideshow">
+        <div class="container">
+            <div class="navbar">
+                <a class="title" href="index.html">Alecto<span class="dot">.</span></a>
+                <ul class="nav">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Work</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+            </div>
+            <div class="carousel">
+                <a onclick="plusSlides(-1)"><img class="arrow" src="./icon/chevron-left-solid.svg" alt=""></a>
+                <div class="header">
+                    <h1><span class="bold">Alecto</span><span class="light"> is simple PSD Template</span></h1>
+                    <p>Nam varius accumsan elementum aliguam</p>
+                    <button class="btn-blue">Learn more</button>
+                    <div>
+                        <span class="point" onclick="currentSlide(1)"></span>
+                        <span class="point" onclick="currentSlide(2)"></span>
+                        <span class="point" onclick="currentSlide(3)"></span>
+                        <span class="point" onclick="currentSlide(4)"></span>
+                        <span class="point" onclick="currentSlide(5)"></span>
+                    </div>
+                </div>
+                <a onclick="plusSlides(1)"><img class="arrow" src="./icon/chevron-right-solid.svg" alt=""></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="about-us">  
+        <h1 class="light">About us</h1>
+        <div class="line"></div>
+        <p class="small">Nam varius accumsan elementum. Aliguam fermentum eros in suscipit scelerisque.</p>    
+        <div class="flex">
+            <div class="col">
+                <div class="circle">
+                    <img class="circle-img" src="icon/rocket.svg" alt="">
+                </div>
+                <h2>Lorem ipsum</h2>
+                <p class="small">Nam varius accumsan elementum. Aliguam fermentum eros in suscipit scelerisque. </p>
+            </div>
+            <div class="col">
+                <div class="circle">
+                    <img class="circle-img" src="icon/atom-solid.svg" alt="">
+                </div>
+                <h2>Lorem ipsum</h2>
+                <p class="small">Nam varius accumsan elementum. Aliguam fermentum eros in suscipit scelerisque. </p>
+            </div>
+            <div class="col">
+                <div class="circle">
+                    <img class="circle-img" src="icon/chart-line-solid.svg" alt="">
+                </div>
+                <h2>Lorem ipsum</h2>
+                <p class="small">Nam varius accumsan elementum. Aliguam fermentum eros in suscipit scelerisque. </p>
+            </div>
+            <div class="col">
+                <div class="circle">
+                    <img class="circle-img" src="icon/graduation-cap-solid.svg" alt="">
+                </div>
+                <h2>Lorem ipsum</h2>
+                <p class="small">Nam varius accumsan elementum. Aliguam fermentum eros in suscipit scelerisque. </p>
+            </div>
+        </div>
+        <button class="btn-green">Learn more</button>
+    </div>
+
+    <div class="row">
+        <div class="container flex">
+            <div class="imgbox">
+                <img class="center-fit" src="img/camera.jpg">
+            </div>
+            <div class="text-col">
+                <h1 class="light pb-2">Lorem ipsum</h1>
+                <p class="small">Lorem ipsum dolor sit amet, consectetur adipscing elit. Quisque elementum augue sed est pottitor, ac blandit nisl posuere. Pellentesque henderit suscipit mi eu lobortis. Curabitur consectetur enim id elementum accumsan. Quisque metus purus, iaculis id tincidunt non, blandit quis sapien. </p>
+                <button class="btn-green">Learn more</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="row white">
+        <div class="container flex">
+            <div class="text-col">
+                <h1 class="light pb-2">Dolor sit amet</h1>
+                <p class="small">Lorem ipsum dolor sit amet, consectetur adipscing elit. Quisque elementum augue sed est pottitor, ac blandit nisl posuere. Pellentesque henderit suscipit mi eu lobortis. Curabitur consectetur enim id elementum accumsan. Quisque metus purus, iaculis id tincidunt non, blandit quis sapien. </p>
+                <button class="btn-green">Learn more</button>
+            </div>
+            <div class="imgbox">
+                <img class="center-fit" src="img/laptop.jpg">
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./main.js"></script>
+</html>
